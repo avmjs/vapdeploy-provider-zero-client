@@ -36,8 +36,8 @@ const fixGetAccounts = function(providerObject) {
   return fixedProviderObject;
 };
 
-// fix ethereumjs-tx rawTx object
-const fixEthereumJSTxObject = function(rawTx) {
+// fix vaporyjs-tx rawTx object
+const fixVaporyJSTxObject = function(rawTx) {
   const rawTxMutation = Object.assign({}, rawTx);
 
   // fix rawTx gaslimit
@@ -68,7 +68,7 @@ const fixSignTransactionMethod = function(providerObject) {
     // build new provider object signTransaciton method
     fixedProviderObject.signTransaction = function(rawTx, cb) {
       // fire old callback
-      oldSignTransactionMethod(fixEthereumJSTxObject(rawTx), cb);
+      oldSignTransactionMethod(fixVaporyJSTxObject(rawTx), cb);
     };
   }
 

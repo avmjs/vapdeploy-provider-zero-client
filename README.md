@@ -1,6 +1,6 @@
-## ethdeploy-provider-zero-client
+## vapdeploy-provider-zero-client
 
-The zero client standard Web3 provider for the [ethdeploy](http://github.com/silentcicero/ethdeploy) Ethereum smart-contract deployment system.
+The zero client standard Web3 provider for the [vapdeploy](http://github.com/silentcicero/vapdeploy) Vapory smart-contract deployment system.
 
 ## Zero Client
 
@@ -21,19 +21,19 @@ See more here: [zero-client](https://github.com/MetaMask/provider-engine#built-f
     const tx = new Tx(rawTx);
     tx.sign(privateKey);
 
-    cb(null, ethUtil.bufferToHex(tx.serialize()));
+    cb(null, vapUtil.bufferToHex(tx.serialize()));
   },
   host: 'https://morden.infura.io',
   port: 8545,
 }
 ```
 
-Note, please do not store your accounts or private keys in your ethdeploy provider settings... please! That is stupid and dangerous.
+Note, please do not store your accounts or private keys in your vapdeploy provider settings... please! That is stupid and dangerous.
 
 ## Install
 
 ```
-npm install --save ethdeploy-provider-zero-client
+npm install --save vapdeploy-provider-zero-client
 ```
 
 ## Licence

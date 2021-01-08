@@ -1,29 +1,29 @@
 {
-  "name": "ethdeploy-provider-zero-client",
+  "name": "vapdeploy-provider-zero-client",
   "version": "0.1.9",
-  "description": "A zero client standard Web3 provider for ethdeploy.",
+  "description": "A zero client standard Web3 provider for vapdeploy.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "browserify": "node ./node_modules/browserify/bin/cmd.js --s ethdeployProviderZeroClient ./index.js > ./dist/ethdeploy-provider-zero-client.js"
+    "browserify": "node ./node_modules/browserify/bin/cmd.js --s vapdeployProviderZeroClient ./index.js > ./dist/vapdeploy-provider-zero-client.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/silentcicero/ethdeploy-provider-zero-client.git"
+    "url": "git+ssh://git@github.com/silentcicero/vapdeploy-provider-zero-client.git"
   },
   "keywords": [
-    "ethdeploy",
+    "vapdeploy",
     "http",
     "provider",
-    "ethereum",
+    "vapory",
     "web3"
   ],
   "author": "= <=>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/silentcicero/ethdeploy-provider-zero-client/issues"
+    "url": "https://github.com/silentcicero/vapdeploy-provider-zero-client/issues"
   },
-  "homepage": "https://github.com/silentcicero/ethdeploy-provider-zero-client#readme",
+  "homepage": "https://github.com/silentcicero/vapdeploy-provider-zero-client#readme",
   "dependencies": {
     "web3-provider-engine": "^8.1.6"
   },
