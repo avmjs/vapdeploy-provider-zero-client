@@ -21,9 +21,9 @@
   "author": "= <=>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/silentcicero/vapdeploy-provider-zero-client/issues"
+    "url": "https://github.com/vapjs/vapdeploy-provider-zero-client/issues"
   },
-  "homepage": "https://github.com/silentcicero/vapdeploy-provider-zero-client#readme",
+  "homepage": "https://github.com/vapjs/vapdeploy-provider-zero-client#readme",
   "dependencies": {
     "web3-provider-engine": "^8.1.6"
   },
