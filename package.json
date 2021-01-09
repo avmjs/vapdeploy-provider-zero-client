@@ -1,5 +1,6 @@
 {
   "name": "vapdeploy-provider-zero-client",
+  "namespace": "vapjs",
   "version": "0.1.9",
   "description": "A zero client standard Web3 provider for vapdeploy.",
   "main": "index.js",
