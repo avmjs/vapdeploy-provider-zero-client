@@ -1,6 +1,6 @@
 // require web3
-const ProviderEngine = require('web3-provider-engine');
-const zeroClientProvider = require('web3-provider-engine/zero');
+const ProviderEngine = require('@vapormask/web3-provider-engine');
+const zeroClientProvider = require('@vapormask/web3-provider-engine/zero');
 
 // fix getAccounts method
 const fixGetAccounts = function(providerObject) {
